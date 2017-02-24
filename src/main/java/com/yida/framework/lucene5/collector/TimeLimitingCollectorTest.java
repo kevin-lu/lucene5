@@ -24,6 +24,7 @@ import org.apache.lucene.util.Counter;
  */
 public class TimeLimitingCollectorTest {
 	public static void main(String[] args) throws Exception {
+		int i = 0;
 		String indexDir = "C:/lucenedir";
 		Directory directory = FSDirectory.open(Paths.get(indexDir));
 	    IndexReader reader = DirectoryReader.open(directory);
